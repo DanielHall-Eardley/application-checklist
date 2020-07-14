@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <h1>Application checklist</h1>
+    <article>
+      <h2>Accessibilty</h2>
+      <p>
+        There is three main types of disabilties that need to be catered for, visual, hearing and physical.
+        Visual disabilites need descriptive content for screen readers, hearing disabilites require visual text for 
+        audio content and physical disabilites need full keyboard accessibilty.
+
+        WAI-ARIA allows you add semantic information to generic html. 
+      </p>
+      <ul>
+        <li>
+          <label for="screen-reader">Use a screen reader across the 4 main browsers</label>
+          <input id='screen-reader' type="checkbox">
+        </li>
+        <li>
+          <label for="semantic-html">Use semantic html</label>
+          <input id='semantic-html' type="checkbox">
+        </li>
+        <li>
+          <label for="section-content">Use sectional html elements for page layout</label>
+          <input id='section-content' type="checkbox">
+        </li>
+        <li>
+          <label for="ui-interactions">All UI interactions must be able to be triggered via keyboard</label>
+          <input id='ui-interactions' type="checkbox">
+        </li>
+        <li>
+          <label for="img-alt">Add alt text descriptions to images, empty img alt for decorative images</label>
+          <input id='img-alt' type="checkbox">
+        </li>
+        <li>
+          <label for="skip-links">Look into skip links</label>
+          <input id='skip-links' type="checkbox">
+        </li>
+        <li>
+          <label for="css">Use color contrast to make text easy to read, add feedback via css to buttons and links</label>
+          <input id='css' type="checkbox">
+        </li>
+        <li>
+          <label for="zoom">Allow for page zooming and fallbacks for css failing</label>
+          <input id='zoom' type="checkbox">
+        </li>
+        <li>
+          <label for="aria-role">Use aria-roles to add information to custom components built without semantic html</label>
+          <input id='aria-role' type="checkbox">
+        </li>
+        <li>
+          <label for="aria-role">Use aria-live to inform screen readers of dynamic content update</label>
+          <input id='aria-role' type="checkbox">
+        </li>
+        <li>
+          <label for="aria-label">Use aria-label to describe elements that don't have attached labels, such as inputs</label>
+          <input id='aria-label' type="checkbox">
+        </li>
+        <li>
+          <label for="aria-req">Use aria-required to specify required form inputs</label>
+          <input id='aria-req' type="checkbox">
+        </li>
+        <li>
+          <label for="img">Render lower resolution images for mobile platforms</label>
+          <input id='img' type="checkbox">
+        </li>
+        <li>
+          <label for="responsive">Make application mobile responsive</label>
+          <input id='responsive' type="checkbox">
+        </li>
+      </ul>
+    </article>
+    <article>
+      <h2>SEO</h2>
+    </article>
+    <article>
+      <h2>Cross browser</h2>
+      <p>The browsers I am going to test are: Chrome, Firefox, Safari and Internet Explorer</p>
+    </article>
+    <article>
+      <h2>Testing</h2>
+    </article>
+  </main>
+</body>
+</html>
